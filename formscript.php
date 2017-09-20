@@ -25,7 +25,7 @@ $age = $_REQUEST['age_field'];
 			padding: 5px 20px;
 		}
 		</style>
-	    <link rel="stylesheet" media="screen" href="http://vincenzo.dippitykids.com/screen.css" />	
+	    <link rel="stylesheet" media="screen" href="screen.css" />	
 </head>
 <body>
 	<div style="text-align:center;">
@@ -53,10 +53,6 @@ $age = $_REQUEST['age_field'];
 		<p><strong>Form submitted by:</strong> <?php echo htmlentities($firstName) ?> <?php echo htmlentities($lastName) ?></p>
 		
 	</div>
-	
-	<div id="main_menu_icon">
-		<a href="http://vincenzo.dippitykids.com/"><img src="http://vincenzo.dippitykids.com/images/main_menu_icon.png" height="59" width="241" alt="door" /></a>
-	</div>	
 	
 </body>
 </html>
